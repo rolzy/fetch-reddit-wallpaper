@@ -1,0 +1,12 @@
+{
+    "1080p": {
+        "resolution": "1920x1080",
+        "image_save_location": "/home/rolzy/Pictures/wallpaper/normal/",
+        "subreddit": "wallpaper"
+    },
+    "wide": {
+        "resolution": "3440x1440",
+        "image_save_location": "/home/rolzy/Pictures/wallpaper/widescreen/",
+        "subreddit": "WidescreenWallpaper"
+    }
+}

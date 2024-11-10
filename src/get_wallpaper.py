@@ -48,7 +48,7 @@ def fetch_image(reddit_instance: Reddit, config: dict):
             filename = date + "_" + image_name + file_extension
 
             # If image_name already exist in folder, skip download
-            # If image already downloaded for week, skip download
+            # If image already downloaded for week, skip the entire process
             skip = False
             for file in os.listdir(image_save_location):
                 if weeknumber in file:

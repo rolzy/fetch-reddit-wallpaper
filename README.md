@@ -8,7 +8,8 @@ Automatically fetch a new wallpaper every using the Reddit API.
 3. Install Python packages `pip install -r requirements.txt`
 4. Edit `config.json` with configuration for your system. You can set the resolution of your monitors, the image save location and the subreddit to source the wallpapers from. 
 5. Run `python run.py`
-6. (Optional) Setup a cronjob to get a new wallpaper at your desired frequency
+6. Set your OS to display desktop wallpapers from the image save location
+7. (Optional) Setup a cronjob to get a new wallpaper at your desired frequency
 
 ## Features
 - Download the top weekly wallpaper from subreddit(s) specified in `config.json`
